@@ -2,7 +2,7 @@
   "name": "13-advanced-dom-bankist",
   "version": "1.0.0",
   "description": "banking meets minimalist",
-  "default": "index.js",
+  "default": "index.html",
   "scripts": {
     "dev": "parcel serve ./src/index.html",
     "setup": "pm2 start --name mk-bankist-minimalist-banking npm -- start",
@@ -14,14 +14,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.26.0",
-    "@babel/preset-env": "^7.26.0",
-    "babel-loader": "^9.2.1",
-    "parcel": "^2.13.3",
-    "svgo": "^3.3.2"
-  },
-  "dependencies": {
-    "css-loader": "^7.1.2",
-    "style-loader": "^4.0.0"
+    "parcel": "^2.13.3"
   }
 }
