@@ -5,9 +5,9 @@
   "default": "index.html",
   "scripts": {
     "dev": "parcel serve ./src/index.html",
-    "setup": "pm2 start --name mk-bankist-minimalist-banking npm -- start",
+    "setup": "pm2 start --name mk-bankist-minimalist-banking-v2 npm -- start",
     "start": "npm run build && parcel serve ./src/index.html",
-    "deploy": "git pull --no-rebase && npm i && npm run build && pm2 restart mk-bankist-minimalist-banking && pm2 save",
+    "deploy": "git pull --no-rebase && npm i && npm run build && pm2 restart mk-bankist-minimalist-banking-v2 && pm2 save",
     "build": "parcel build ./src/index.html"
   },
   "keywords": [],
